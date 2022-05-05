@@ -46,7 +46,7 @@ After downloading, mounting and launching you will be greeted wit this screen:
 ![image](https://user-images.githubusercontent.com/70970346/166999932-3816e44e-1155-423a-a9b4-e46135bf1690.png)
 After that you can press the browser icon:
 ![image](https://user-images.githubusercontent.com/70970346/167001875-f44efd76-3f0a-4357-9558-3626ff659d98.png)
-After opening browser you will be greeted with a welcoming page but we are going straight ot Hue:
+After opening browser you will be greeted with a welcoming page but we are going straight to Hue:
 ![image](https://user-images.githubusercontent.com/70970346/167003112-ab0527ee-30db-4eb2-9219-d757c7de6112.png)
 You will see a login screen and here are credentials:
 - User: couldera
