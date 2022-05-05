@@ -6,6 +6,7 @@
    2. [Advantages](#advantages-of-hbase)
 2. [What is Cloudera Quickstart VM?](#what-is-cloudera-quickstart-vm)
 3. [What is Hue?](#what-is-hue)
+4. [Starting with Cloudera Quickstart VM](#starting-with-cloudera-quickstart-vm)
 
 ## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
@@ -40,5 +41,11 @@ The HBase Hue app enables you to insert a new row or bulk upload CSV files, TSV 
 
 
 ## Starting with Cloudera Quickstart VM
-After downloading, mounting and launching you will be greeted wit this screen
+After downloading, mounting and launching you will be greeted wit this screen:
 ![image](https://user-images.githubusercontent.com/70970346/166999932-3816e44e-1155-423a-a9b4-e46135bf1690.png)
+After that you can press the browser icon:
+![image](https://user-images.githubusercontent.com/70970346/167001875-f44efd76-3f0a-4357-9558-3626ff659d98.png)
+After opening browser you will be greeted with a welcoming page but we are going straight ot Hue:
+![image](https://user-images.githubusercontent.com/70970346/167002408-b86cf532-2691-4c20-9b66-eb4c8d3d78aa.png)
+
+
