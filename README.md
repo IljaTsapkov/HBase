@@ -122,3 +122,6 @@ And if we  try to scan it now we will get an error, so once it's disabled u can'
 ### Altering existing table
 
 While it's disabled we can write `alter 'newtbl', 'test_info'` and if we will write `describe 'newtbl'` now we can see a new family `'test_info'`
+
+![image](https://user-images.githubusercontent.com/70970346/167018728-1c5f81e8-7427-4f19-9efb-5e8237010a21.png)
+
