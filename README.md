@@ -79,3 +79,10 @@ You can also write `status` or `status 'summary'`(they both show the same) and n
 
 ![image](https://user-images.githubusercontent.com/70970346/167013568-ea4925ca-017a-4597-b37e-465666c9f3bf.png)
 
+Now wr can actually fill our table with something, to do that we can use command `put`.
+`put 'newtbl', 'r1', 'knowledge:sports', 'cricket'`, ok so here the insert is at `r1`, column `knowledge:sports`, with a value of `cricket`. Columns in HBase are comprised of a column family prefix, `knowledge` in this example, followed by a colon and then a column qualifier suffix, `sports` in this case.
+Let's add some more so that our table is not so empty, for example:
+`put 'newtbl', 'r1', 'knowledge:science', 'chemistry'`
+`put 'newtbl', 'r1', 'knowledge:science', 'physics'`
+`put 'newtbl', 'r2', 'knowledge:economics', 'macro economics'`
+`put 'newtbl', 'r2', 'knowledge:music', 'pop music'`
