@@ -72,4 +72,5 @@ After that u can write `list` which this time will show our newly created table
 
 ![image](https://user-images.githubusercontent.com/70970346/167012822-af55a586-e72a-422a-8363-a3260d5cd181.png)
 
-
+Now you can write `describe 'newtbl'` which will show you different information about our table
+![image](https://user-images.githubusercontent.com/70970346/167013139-74f80402-83e9-41ad-a13f-6b9f10b3698c.png)
