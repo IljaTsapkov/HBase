@@ -68,9 +68,14 @@ Now we can create our first table using this command `create 'newtbl', 'knowledg
 (You can write just `create` and it will show you how to use that comand and all different formats)
 ![image](https://user-images.githubusercontent.com/70970346/167012612-01a7f9ee-73ee-4620-84e4-32f252c09cf7.png)
 
-After that u can write `list` which this time will show our newly created table
+After that you can write `list` which this time will show our newly created table
 
 ![image](https://user-images.githubusercontent.com/70970346/167012822-af55a586-e72a-422a-8363-a3260d5cd181.png)
 
 Now you can write `describe 'newtbl'` which will show you different information about our table
 ![image](https://user-images.githubusercontent.com/70970346/167013139-74f80402-83e9-41ad-a13f-6b9f10b3698c.png)
+
+You can also write `status` or `status 'summary'`(they both show the same) and now you can see all masters running, for now we have only 1 which is hbase itself
+
+![image](https://user-images.githubusercontent.com/70970346/167013568-ea4925ca-017a-4597-b37e-465666c9f3bf.png)
+
