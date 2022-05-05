@@ -53,5 +53,7 @@ You will see a login screen and here are credentials:
 - Password: couldera
 
 ## Playing with commands
-
+After entering Hue you should open terminal where we will write all commands.
+Terminal is located here:
+![image](https://user-images.githubusercontent.com/70970346/167005555-5a315e5e-174f-4500-a268-6f6df679312f.png)
 
