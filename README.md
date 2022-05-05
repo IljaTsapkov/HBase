@@ -49,8 +49,8 @@ After that you can press the browser icon:
 After opening browser you will be greeted with a welcoming page but we are going straight ot Hue:
 ![image](https://user-images.githubusercontent.com/70970346/167003112-ab0527ee-30db-4eb2-9219-d757c7de6112.png)
 You will see a login screen and here are credentials:
-User: couldera
-Password: couldera
+- User: couldera
+- Password: couldera
 Now you have entered Hue interface.
 
 ## Playing with commands
