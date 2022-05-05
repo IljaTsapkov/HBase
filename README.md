@@ -51,7 +51,6 @@ After opening browser you will be greeted with a welcoming page but we are going
 You will see a login screen and here are credentials:
 - User: couldera
 - Password: couldera
-Now you have entered Hue interface.
 
 ## Playing with commands
 
