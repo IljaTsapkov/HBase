@@ -12,6 +12,7 @@
    2. [Creating table and filling it](#creating-table-and-filling-it)
    3. [Scan and disable](#scan-and-disable)
    4. [Altering existing table](#altering-existing-table)
+6. [Conclusion](#conclusion)
 
 ## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
@@ -125,3 +126,6 @@ While it's disabled we can write `alter 'newtbl', 'test_info'` and if we will wr
 
 ![image](https://user-images.githubusercontent.com/70970346/167018728-1c5f81e8-7427-4f19-9efb-5e8237010a21.png)
 
+## Conclusion
+
+HBase provides a NoSQL layer to HDFS(The Hadoop Distributed File System is a distributed file system designed to run on commodity hardware.). It uses a four dimensional data model to quickly run table scans and perform real time reads/writes. HBase provides highly available and consistent reads/writes while also leveraging MapReduce for batch processing.
