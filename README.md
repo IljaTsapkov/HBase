@@ -10,6 +10,7 @@
 5. [Playing with commands](#playing-with-commands)
    1. [Preparing for work](#preparing-for-work)
    2. [Creating table and filling it](#creating-table-and-filling-it)
+   3. [Scan and disable](#scan-and-disable)
 
 ## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
@@ -97,6 +98,8 @@ Let's add some more so that our table is not so empty, for example:
 `put 'newtbl', 'r2', 'knowledge:economics', 'macro economics'`
 
 `put 'newtbl', 'r2', 'knowledge:music', 'pop music'`
+
+### Scan and disable
 
 Now, to see what we have done, we can write `scan 'newtbl'` to see inside
 
