@@ -59,3 +59,7 @@ Terminal is located here:
 Now you can start writing commands.
 
 First we will enter hbase shell, write `hbase shell`
+
+You will enter hbase shell and u can write `list` to see all tables(this won't show anything because we haven't created any tables yet).
+
+Now we can create our first table using this command `create 'newtbl', 'knowledge'`, this will create table 'newtbl' with family of 'knowledge'
