@@ -91,3 +91,6 @@ Let's add some more so that our table is not so empty, for example:
 
 `put 'newtbl', 'r2', 'knowledge:music', 'pop music'`
 
+Now, to see what we have done, we can write `scan 'newtbl'` to see inside
+
+![image](https://user-images.githubusercontent.com/70970346/167015651-3add7a59-83d9-4db9-b917-a21d0f4f5c5d.png)
