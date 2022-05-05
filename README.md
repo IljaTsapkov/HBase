@@ -60,6 +60,11 @@ Now you can start writing commands.
 
 First we will enter hbase shell, write `hbase shell`
 
-You will enter hbase shell and u can write `list` to see all tables(this won't show anything because we haven't created any tables yet).
+After that you can write `list` to see all tables(this won't show anything because we haven't created any tables yet).
 
-Now we can create our first table using this command `create 'newtbl', 'knowledge'`, this will create table 'newtbl' with family of 'knowledge'
+Now we can create our first table using this command `create 'newtbl', 'knowledge'`, this will create table 'newtbl' with family of 'knowledge'.
+
+
+(You can write just `create` and it will show you how to use that comand and all different formats)
+![image](https://user-images.githubusercontent.com/70970346/167012612-01a7f9ee-73ee-4620-84e4-32f252c09cf7.png)
+
