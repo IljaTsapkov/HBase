@@ -120,3 +120,5 @@ We can also check if our table is enabled using this command `is_enabled 'newtbl
 And if we  try to scan it now we will get an error, so once it's disabled u can't do anything with it.
 
 ### Altering existing table
+
+While it's disabled we can write `alter 'newtbl', 'test_info'` and if we will write `describe 'newtbl'` now we can see a new family `'test_info'`
