@@ -11,6 +11,7 @@
    1. [Preparing for work](#preparing-for-work)
    2. [Creating table and filling it](#creating-table-and-filling-it)
    3. [Scan and disable](#scan-and-disable)
+   4. [Altering existing table](#altering-existing-table)
 
 ## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
@@ -117,3 +118,5 @@ Or u can use `get 'newtbl', 'r1'` to get all r1 rows
 We can also check if our table is enabled using this command `is_enabled 'newtbl'`, we have it enabeld so you will see true but now we can try to disable it using `disable 'newtbl'`.
 
 And if we  try to scan it now we will get an error, so once it's disabled u can't do anything with it.
+
+### Altering existing table
