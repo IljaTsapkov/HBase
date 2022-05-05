@@ -8,6 +8,7 @@
 3. [What is Hue?](#what-is-hue)
 4. [Starting with Cloudera Quickstart VM](#starting-with-cloudera-quickstart-vm)
 5. [Playing with commands](#playing-with-commands)
+   1. [Preparing for work](#preparing-for-work)
 
 ## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
@@ -53,6 +54,9 @@ You will see a login screen and here are credentials:
 - Password: couldera
 
 ## Playing with commands
+
+### Preparing for work
+
 After entering Hue you should open terminal where we will write all commands.
 Terminal is located here:
 ![image](https://user-images.githubusercontent.com/70970346/167005555-5a315e5e-174f-4500-a268-6f6df679312f.png)
@@ -94,3 +98,9 @@ Let's add some more so that our table is not so empty, for example:
 Now, to see what we have done, we can write `scan 'newtbl'` to see inside
 
 ![image](https://user-images.githubusercontent.com/70970346/167015651-3add7a59-83d9-4db9-b917-a21d0f4f5c5d.png)
+
+This will show every row and time of when it was created and as you can see `'knowledge:science'` has a value of `'physics'` instead of `'chemistry'`. It happended because if you try to put another value into existing one it will just overwrite existing and put will itself there.
+
+To scan only 1 row u can use `scan 'newtbl', 'r1'` and it will show you information about this exact row.
+
+
