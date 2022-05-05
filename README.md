@@ -32,9 +32,6 @@ HBase is an open-source, NoSQL, distributed big data store. Used when you need r
 - Simple client interface
 
 ## What is Cloudera Quickstart VM?
-
-### Cloudera QuickStart VM includes may things. It requires VirtualBox and has many things like Cloudera Manager which is the main feature we are going to use because it controls everything. It has many services but we are interested in HBase, Hue and Impala. Overall Cloudera Quickstart is just a thing from Cloudera company which includes most of their products.
+Cloudera QuickStart VM includes may things. It requires VirtualBox and has many things like Cloudera Manager which is the main feature we are going to use because it controls everything. It has many services but we are interested in HBase, Hue and Impala. Overall Cloudera Quickstart is just a thing from Cloudera company which includes most of their products.
 
 ## What is Hue?
-
-### 
