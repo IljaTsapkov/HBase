@@ -109,6 +109,11 @@ This will show every row and time of when it was created and as you can see `'kn
 
 To scan only 1 row u can use `scan 'newtbl', 'r1'` and it will show you information about this exact row.
 
+Or u can use `get 'newtbl', 'r1'` to get all r1 rows
+
+![image](https://user-images.githubusercontent.com/70970346/167018085-518fd425-e0bf-481b-ba4b-8bf2552cdc2c.png)
+
+
 We can also check if our table is enabled using this command `is_enabled 'newtbl'`, we have it enabeld so you will see true but now we can try to disable it using `disable 'newtbl'`.
 
 And if we  try to scan it now we will get an error, so once it's disabled u can't do anything with it.
