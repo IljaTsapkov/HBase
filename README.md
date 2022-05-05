@@ -9,6 +9,7 @@
 4. [Starting with Cloudera Quickstart VM](#starting-with-cloudera-quickstart-vm)
 5. [Playing with commands](#playing-with-commands)
    1. [Preparing for work](#preparing-for-work)
+   2. [Creating table and filling it](#creating-table-and-filling-it)
 
 ## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
@@ -65,6 +66,8 @@ Now you can start writing commands.
 First we will enter hbase shell, write `hbase shell`
 
 After that you can write `list` to see all tables(this won't show anything because we haven't created any tables yet).
+
+### Creating table and filling it
 
 Now we can create our first table using this command `create 'newtbl', 'knowledge'`, this will create table 'newtbl' with family of 'knowledge'.
 
