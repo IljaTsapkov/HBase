@@ -4,8 +4,10 @@
 1. [What is HBase?](#what-is-hbase)
    1. [Features](#features-of-hbase)
    2. [Advantages](#advantages-of-hbase)
+2. [What is Cloudera Quickstart VM?](#what-is-cloudera-quickstart-vm)
+3. [What is Hue?](#what-is-hue)
 
-### What is HBase?
+## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
 
 ### Features of HBase
@@ -28,3 +30,11 @@ HBase is an open-source, NoSQL, distributed big data store. Used when you need r
 - Auto-sharding
 - Auto failover
 - Simple client interface
+
+##What is Cloudera Quickstart VM?
+
+### Cloudera QuickStart VM includes may things. It requires VirtualBox and has many things like Cloudera Manager which is the main feature we are going to use because it controls everything. It has many services but we are interested in HBase, Hue and Impala. Overall Cloudera Quickstart is just a thing from Cloudera company which includes most of their products.
+
+##What is Hue?
+
+### 
