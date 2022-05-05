@@ -6,7 +6,7 @@
    2. [Advantages](#advantages-of-hbase)
 
 ### What is HBase?
-HBase is an open-source, NoSQL, distributed big data store. It enables random, strictly consistent, real-time access to petabytes of data. HBase is very effective for handling large, sparse datasets.
+HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
 
 ### Features of HBase
 - Linear and modular scalability.
