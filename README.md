@@ -37,3 +37,8 @@ Cloudera QuickStart VM includes many things. It requires VirtualBox and has Clou
 ## What is Hue?
 Hue is a web-based interactive query editor that enables you to interact with data warehouses. You can use the HBase Browser application in Hue to create and browse HBase tables.
 The HBase Hue app enables you to insert a new row or bulk upload CSV files, TSV files, and type data into your table. You can also insert columns into your row.
+
+
+## Starting with Cloudera Quickstart VM
+After downloading, mounting and launching you will be greeted wit this screen
+![image](https://user-images.githubusercontent.com/70970346/166999932-3816e44e-1155-423a-a9b4-e46135bf1690.png)
