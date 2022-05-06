@@ -55,6 +55,13 @@ HBase master in the architecture of HBase is responsible for region assignment a
 
 There are two main responsibilities of a master in HBase architecture:
 
+a. Coordinating the region servers
+Basically, a master assigns Regions on startup. Also for the purpose of recovery or load balancing, it re-assigns regions.
+Also, a master monitors all RegionServer instances in the HBase Cluster.
+
+b. Admin functions
+Moreover, it acts as an interface for creating, deleting and updating tables in HBase.
+
 ### Zookeeper
 
 To maintain server state in the HBase Cluster, HBase uses ZooKeeper as a distributed coordination service.
