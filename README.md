@@ -64,32 +64,7 @@ Basically, which servers are alive and available is maintained by Zookeeper, and
 
 ## Starting with HBase
 
-First create a `docker-compose.yaml` file and put this inside:
-
-`
-version: '2'
-
-services:
-  hbase-master:
-    image: blueskyareahm/hbase-base:2.1.3
-    command: master
-    ports:
-      - 16000:16000
-      - 16010:16010
-
-  hbase-regionserver:
-    image: blueskyareahm/hbase-base:2.1.3
-    command: regionserver
-    ports:
-      - 16030:16030
-      - 16201:16201
-      - 16301:16301
-
-  zookeeper:
-    image: blueskyareahm/hbase-zookeeper:3.4.13
-    ports:
-      - 2181:2181
-`
+First download a docker compose file from this repository and extract it in a folder.
 
 
 ## Playing with commands
