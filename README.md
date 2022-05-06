@@ -41,6 +41,10 @@ HBase is an open-source, NoSQL, distributed big data store. Used when you need r
 
 ![image](https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/HBase-Components.png)
 
+In HBase Architecture, a region consists of all the rows between the start key and the end key which are assigned to that Region. And, those Regions which we assign to the nodes in the HBase Cluster, is what we call “Region Servers”.
+
+Basically, for the purpose of reads and writes these servers serves the data. While talking about numbers, it can serve approximately 1,000 regions. However, we manages rows in each region in HBase in a sorted order.
+
 ## Starting with Cloudera Quickstart VM
 After downloading, mounting and launching you will be greeted wit this screen:
 ![image](https://user-images.githubusercontent.com/70970346/166999932-3816e44e-1155-423a-a9b4-e46135bf1690.png)
