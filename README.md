@@ -4,7 +4,7 @@
 1. [What is HBase?](#what-is-hbase)
    1. [Features](#features-of-hbase)
    2. [Advantages](#advantages-of-hbase)
-2. [Starting with Cloudera Quickstart VM](#starting-with-cloudera-quickstart-vm)
+2. [Starting with HBase](#starting-with-hbase)
 3. [Playing with commands](#playing-with-commands)
    1. [Preparing for work](#preparing-for-work)
    2. [Creating table and filling it](#creating-table-and-filling-it)
