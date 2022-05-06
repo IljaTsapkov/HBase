@@ -4,14 +4,15 @@
 1. [What is HBase?](#what-is-hbase)
    1. [Features](#features-of-hbase)
    2. [Advantages](#advantages-of-hbase)
-   3. [HBase architecture](#hbase-architecture)
-2. [Starting with HBase](#starting-with-hbase)
-4. [Playing with commands](#playing-with-commands)
+3. [HBase architecture](#hbase-architecture)
+   1. [HBase regions](#hbase-regions) 
+5. [Starting with HBase](#starting-with-hbase)
+6. [Playing with commands](#playing-with-commands)
    1. [Preparing for work](#preparing-for-work)
    2. [Creating table and filling it](#creating-table-and-filling-it)
    3. [Scan and disable](#scan-and-disable)
    4. [Altering existing table](#altering-existing-table)
-5. [Conclusion](#conclusion)
+7. [Conclusion](#conclusion)
 
 ## What is HBase?
 HBase is an open-source, NoSQL, distributed big data store. Used when you need random, realtime read/write access to your Big Data. Its goal is the hosting of very large tables -- billions of rows X millions of columns -- atop clusters of commodity hardware.
@@ -37,13 +38,19 @@ HBase is an open-source, NoSQL, distributed big data store. Used when you need r
 - Auto failover
 - Simple client interface
 
-### HBase architecture
+## HBase architecture
 
 ![image](https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/HBase-Components.png)
+
+### HBase Regions
+
+![image](https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/HBase-Regions.png)
 
 In HBase Architecture, a region consists of all the rows between the start key and the end key which are assigned to that Region. And, those Regions which we assign to the nodes in the HBase Cluster, is what we call “Region Servers”.
 
 Basically, for the purpose of reads and writes these servers serves the data. While talking about numbers, it can serve approximately 1,000 regions. However, we manages rows in each region in HBase in a sorted order.
+
+### HBase Master
 
 ## Starting with Cloudera Quickstart VM
 After downloading, mounting and launching you will be greeted wit this screen:
