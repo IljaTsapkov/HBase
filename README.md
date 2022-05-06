@@ -66,6 +66,8 @@ Basically, which servers are alive and available is maintained by Zookeeper, and
 
 First download a docker compose file from this repository and extract it in a folder.
 
+After that open Git Bash in folder you just extracted your file in and input this command to enter HBase shell `docker-compose exec hbase-master hbase shell`
+
 
 ## Playing with commands
 
