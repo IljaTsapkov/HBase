@@ -8,7 +8,7 @@
    1. [HBase Regions](#hbase-regions) 
    2. [HBase Master](#hbase-master)
    3. [Zookeeper](#zookeeper)
-5. [Starting with HBase](#starting-with-hbase)
+5. [Starting to work with HBase](#starting-to-work-with-hbase)
 6. [Playing with commands](#playing-with-commands)
    1. [Preparing for work](#preparing-for-work)
    2. [Creating table and filling it](#creating-table-and-filling-it)
@@ -62,7 +62,7 @@ To maintain server state in the HBase Cluster, HBase uses ZooKeeper as a distrib
 
 Basically, which servers are alive and available is maintained by Zookeeper, and also it provides server failure notification.
 
-## Starting with HBase
+## Starting to work with HBase
 
 First download a docker compose file from this repository and extract it in a folder.
 
@@ -70,22 +70,6 @@ After that open Git Bash in folder you just extracted your file in and input thi
 
 
 ## Playing with commands
-
-### Preparing for work
-
-After entering Hue you should open terminal where we will write all commands.
-Terminal is located here:
-![image](https://user-images.githubusercontent.com/70970346/167005555-5a315e5e-174f-4500-a268-6f6df679312f.png)
-Now you can start writing commands.
-
-First we will enter hbase shell, write `hbase shell`
-
-After that you can write `list` to see all tables(this won't show anything because we haven't created any tables yet).
-
-### Creating table and filling it
-
-Now we can create our first table using this command `create 'newtbl', 'knowledge'`, this will create table 'newtbl' with family of 'knowledge'.
-
 
 (You can write just `create` and it will show you how to use that comand and all different formats)
 ![image](https://user-images.githubusercontent.com/70970346/167012612-01a7f9ee-73ee-4620-84e4-32f252c09cf7.png)
