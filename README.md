@@ -74,6 +74,8 @@ After that open Git Bash in folder you just extracted your file in and input thi
 (You can write just `create` and it will show you how to use that comand and all different formats)
 ![image](https://user-images.githubusercontent.com/70970346/167012612-01a7f9ee-73ee-4620-84e4-32f252c09cf7.png)
 
+Now let's create our firts table using this command `create 'newtbl', 'knowledge'`
+
 After that you can write `list` which this time will show our newly created table
 
 ![image](https://user-images.githubusercontent.com/70970346/167012822-af55a586-e72a-422a-8363-a3260d5cd181.png)
