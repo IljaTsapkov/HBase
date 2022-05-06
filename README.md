@@ -34,7 +34,6 @@ HBase is an open-source, NoSQL, distributed big data store. Used when you need r
 - Fault tolerance
 - License free
 - Very flexible on schema design/no fixed schema
-- Can be integrated with Hive for SQL-like queries, which is better for DBAs who are more familiar with SQL queries
 - Auto-sharding
 - Auto failover
 - Simple client interface
