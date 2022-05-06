@@ -75,6 +75,8 @@ After that open Gut bash in this folder and input this `docker-compose up --buil
 
 After that input this command to enter HBase shell `docker-compose exec hbase-master hbase shell`.
 
+(If you're on windows and it doesn't work try adding `winpty` infront of commands)
+
 Now we're ready for work!
 
 
