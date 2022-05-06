@@ -5,7 +5,9 @@
    1. [Features](#features-of-hbase)
    2. [Advantages](#advantages-of-hbase)
 3. [HBase architecture](#hbase-architecture)
-   1. [HBase regions](#hbase-regions) 
+   1. [HBase Regions](#hbase-regions) 
+   2. [HBase Master](#hbase-master)
+   3. [Zookeeper](#zookeeper)
 5. [Starting with HBase](#starting-with-hbase)
 6. [Playing with commands](#playing-with-commands)
    1. [Preparing for work](#preparing-for-work)
@@ -40,17 +42,19 @@ HBase is an open-source, NoSQL, distributed big data store. Used when you need r
 
 ## HBase architecture
 
-![image](https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/HBase-Components.png)
-
 ### HBase Regions
-
-![image](https://data-flair.training/blogs/wp-content/uploads/sites/2/2018/05/HBase-Regions.png)
 
 In HBase Architecture, a region consists of all the rows between the start key and the end key which are assigned to that Region. And, those Regions which we assign to the nodes in the HBase Cluster, is what we call “Region Servers”.
 
 Basically, for the purpose of reads and writes these servers serves the data. While talking about numbers, it can serve approximately 1,000 regions. However, we manages rows in each region in HBase in a sorted order.
 
 ### HBase Master
+
+HBase master in the architecture of HBase is responsible for region assignment as well as DDL (create, delete tables) operations.
+
+There are two main responsibilities of a master in HBase architecture:
+
+### Zookeeper
 
 ## Starting with Cloudera Quickstart VM
 After downloading, mounting and launching you will be greeted wit this screen:
