@@ -42,6 +42,8 @@ HBase is an open-source, NoSQL, distributed big data store. Used when you need r
 
 ## HBase architecture
 
+![image](https://miro.medium.com/max/1400/1*GhFrq32hXR7XNPNp6ywmmg.png)
+
 ### HBase Regions
 
 In HBase Architecture, a region consists of all the rows between the start key and the end key which are assigned to that Region. And, those Regions which we assign to the nodes in the HBase Cluster, is what we call “Region Servers”.
