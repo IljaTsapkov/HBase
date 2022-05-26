@@ -5,7 +5,7 @@ I only managed to find out a good framework to launch website with java and have
 The main problem is that im having troubles installing HBase because of some errors which i have no idea how to fix.
 To launch server:
 1. Open project in vusial studio
-2. Navigate to src\main\java\com\example\application
+2. Navigate to ToDoApp\src\main\java\com\example\application
 3. Open Application.java
 4. Press Run -> Start Debugging
 5. Wait for page to load
