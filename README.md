@@ -9,6 +9,7 @@ To launch server:
 3. Open Application.java
 4. Press Run -> Start Debugging
 5. Wait for page to load
+
 This is a very simple ToDo, i wasnt trying to improve it, because it would take a lot of time to read documentation and find out how to write scripts in java, and i still need to find out how to connect it with my database.
 
 
