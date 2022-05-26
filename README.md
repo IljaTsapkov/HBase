@@ -1,25 +1,3 @@
-# ToDo App Demo
-
-ToDo App is actually not finished. Due to my lack of knowledge of Java and some problems with HBase.
-I only managed to find out a good framework to launch website with java and have a simple ToDo app in java.
-The main problem is that im having troubles installing HBase because of some errors which i have no idea how to fix.
-To launch server:
-1. Open project in vusial studio
-2. Navigate to ToDoApp\src\main\java\com\example\application
-3. Open Application.java
-4. Press Run -> Start Debugging
-5. Wait for page to load
-
-This is a very simple ToDo, i wasnt trying to improve it, because it would take a lot of time to read documentation and find out how to write scripts in java, and i still need to find out how to connect it with my database.
-
-
-
-
-
-
-
-
-
 # HBase brief introduction
 
 ## Content:
