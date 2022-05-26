@@ -2,7 +2,7 @@
 
 ToDo App is actually not finished. Due to my lack of knowledge of Java and some problems with HBase.
 I only managed to find out a good framework to launch website with java and have a simple ToDo app in java.
-The main problme is that im having troubles installing HBase because of some errors which i have no idea how to fix.
+The main problem is that im having troubles installing HBase because of some errors which i have no idea how to fix.
 To launch server:
 1. Open project in vusial studio
 2. Navigate to src\main\java\com\example\application
